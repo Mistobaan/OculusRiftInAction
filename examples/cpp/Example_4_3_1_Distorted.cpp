@@ -50,8 +50,7 @@ public:
 #endif
 
     int distortionCaps = 
-        ovrDistortionCap_Vignette
-        | ovrDistortionCap_Chromatic;
+        ovrDistortionCap_Vignette;
 
     ovrEyeRenderDesc eyeRenderDescs[2];
     int configResult = ovrHmd_ConfigureRendering(hmd, &config,

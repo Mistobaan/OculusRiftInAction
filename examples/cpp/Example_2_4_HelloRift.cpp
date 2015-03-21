@@ -98,7 +98,6 @@ public:
 
     int distortionCaps =
         ovrDistortionCap_TimeWarp |
-        ovrDistortionCap_Chromatic |
         ovrDistortionCap_Vignette;
 
     ON_LINUX([&]{

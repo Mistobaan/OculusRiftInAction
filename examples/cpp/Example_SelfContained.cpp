@@ -751,7 +751,6 @@ protected:
 
     int distortionCaps = 0
       | ovrDistortionCap_Vignette
-      | ovrDistortionCap_Chromatic
       | ovrDistortionCap_Overdrive
       | ovrDistortionCap_TimeWarp
       ;
